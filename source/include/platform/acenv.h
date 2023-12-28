@@ -360,6 +360,9 @@
 
 #elif defined(__ZEPHYR__)
 #include "aczephyr.h"
+
+#elif defined(__CASCADEOS__)
+
 #else
 
 /* Unknown environment */
